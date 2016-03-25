@@ -55,9 +55,6 @@
         .navbar-list li:first-child a {
             border-left: none;
         }
-        .navbar-list li.last a {
-            border-right: none;
-        }
         .navbar-list ul ul {
             display: none;
             width: 100%;
@@ -69,7 +66,8 @@
             float: none;
         }
         .navbar-list ul ul a {
-            padding: 5px 10px;
+            display: block;
+            padding: 5px 6px;
             border-left: none;
             border-right: none;
             font-size: 10px;
