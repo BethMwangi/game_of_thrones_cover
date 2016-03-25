@@ -1,55 +1,76 @@
-#container {
-    width: 1280px;
-    height: auto;
-    margin: 0 auto;
-}
-#navbar {
-    width: 1280px;
-    height: 60px;
-    background-color: black;
-}
-.navbar-list {
-    width: 1100px;
-    float: left;
-}
-.navbar-list ul {
-    text-decoration: none;
-}
-.navbar-list li {
-    text-decoration: none;
-    display: inline-block;
-}
-.navbar-list ul li a {
-    text-decoration: none;
-    padding: 30px;
-    text-transform: uppercase;
-    font-family: 'Cinzel Decorative', cursive;
-    color: snow;
-    font-weight: 600;
-}
-.navbar-content {
-    width: 180px;
-    float: right;
-}
-.navbar-content h3 {
-    color: snow;
-    font-family: 'Cinzel Decorative', cursive;
-}
-image {
-    position: relative;
-}
-h2 {
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    font-size: 80px;
-    font-family: 'Cinzel Decorative', cursive;
-    color: snow;
-}
-#section h3 {
-    position: absolute;
-    bottom: 1px;
-    right: 100px;
-    font-size: 50px;
-    color: snow;
-}
+        #container {
+            width: 1000px;
+            height: auto;
+            margin: 0 auto;
+        }
+        #navbar {
+            width: 1000px;
+            height: 60px;
+            background-color: black;
+        }
+        .navbar-list {
+            width: 900px;
+            float: left;
+        }
+        .navbar-list ul {
+            text-decoration: none;
+        }
+        .navbar-list li {
+            text-decoration: none;
+            display: inline-block;
+        }
+        .navbar-list ul li a {
+            text-decoration: none;
+            padding: 30px;
+            text-transform: uppercase;
+            font-family: 'Cinzel Decorative', cursive;
+            color: snow;
+            font-weight: 600;
+        }
+        .navbar-content {
+            width: 100px;
+            float: right;
+        }
+        .navbar-content h3 {
+            color: snow;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        #section {
+            width: 1000px;
+            height: 700px;
+        }
+        img {
+            width: 1000px;
+            height: 700px;
+            position: relative;
+        }
+        h2 {
+            position: absolute;
+            top: 150px;
+            left: 200px;
+            font-size: 80px;
+            font-family: 'Cinzel Decorative', cursive;
+            color: snow;
+        }
+        #section h3 {
+            position: absolute;
+            bottom: 1px;
+            right: 250px;
+            width: 20%;
+            color: snow;
+            font-size: 50px;
+            font-family: 'Cinzel Decorative', cursive;
+            letter-spacing: 2px;
+        }
+        span {
+            color: bisque;
+        }
+        #footer {
+            width: 1000px;
+            height: 60px;
+            background-color: black;
+            text-align: center;
+        }
+        #footer p {
+            color: snow;
+        }
